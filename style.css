@@ -1,0 +1,54 @@
+h1{
+font-size: x-large;
+    text-align: center;
+}
+.weather{
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 4px 5px 3px grey;
+    float: inline-start;
+display: flex;
+text-align: center;
+align-items: center;
+margin-left: 39px;
+}
+
+.temperature{
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 4px 5px 3px grey;
+    float: inline-start;
+    /*background-size: contain;
+    background-repeat: no-repeat;*/
+}
+.hum{
+ border: 1px solid black;
+border-radius: 3px;
+box-shadow: 4px 5px 3px grey;
+float: inline-start;}
+
+.vent{
+    border: 1px solid black;
+   border-radius: 3px;
+   box-shadow: 4px 5px 3px grey;
+   float: inline-start;
+
+}
+.temperature p,
+.hum p,
+.vent p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin-left: 20px;
+    background-color: grey;
+}
+.text{
+    margin-left:    80px;
+    font-style: italic;
+}
